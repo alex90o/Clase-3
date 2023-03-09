@@ -10,4 +10,11 @@ alert(" ♥♥♥ Saludar ♦♦♦")
 
  var apellido = prompt("Ingrese su apellido")
 
- alert("Hola " + nombre +" "+ apellido + " bienvenido que tengas un buen día"); 
+ //alert("Hola " + nombre +" "+ apellido + " bienvenido que tengas un buen día"); 
+ let myDOM = document; 
+
+console.log(myDOM);
+
+let myApp = document.getElementById("myApp");
+
+myApp.innerHTML = "Hola " + nombre +" "+ apellido + " bienvenido que tengas un buen día"
